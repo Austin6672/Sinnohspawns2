@@ -1,0 +1,14 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        maven {
+            name = 'MinecraftForge'
+            url = 'https://files.minecraftforge.net/'
+        }
+    }
+}
+
+plugins {
+    id 'org.gradle.toolchains.foojay-resolver-convention' version '0.7.0'
+}
